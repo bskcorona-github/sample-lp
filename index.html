@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="沖縄の美しい海で最高のマリンアクティビティを体験しよう！パラセーリング、シュノーケリング、ジェットスキーなど様々なマリンレジャーを提供。オンライン予約で簡単に沖縄の思い出作りを。"
+    />
+    <meta
+      name="keywords"
+      content="沖縄, マリンレジャー, パラセーリング, シュノーケリング, ジェットスキー, 海, アクティビティ, 予約"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>沖縄ブルーオーシャン | 最高のマリンレジャー体験</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- OGP設定 -->
+    <meta
+      property="og:title"
+      content="沖縄ブルーオーシャン | 最高のマリンレジャー体験"
+    />
+    <meta
+      property="og:description"
+      content="沖縄の美しい海で最高のマリンアクティビティを体験しよう！パラセーリング、シュノーケリング、ジェットスキーなど様々なマリンレジャーを提供。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://okinawa-blueocean.com/" />
+    <meta
+      property="og:image"
+      content="https://okinawa-blueocean.com/images/ogp.jpg"
+    />
+    <!-- ファビコン -->
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- 構造化データ -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "沖縄ブルーオーシャン",
+        "url": "https://okinawa-blueocean.com",
+        "logo": "https://okinawa-blueocean.com/images/logo.png",
+        "description": "沖縄の美しい海で最高のマリンアクティビティを提供",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "恩納村",
+          "addressRegion": "沖縄県",
+          "postalCode": "904-0411",
+          "streetAddress": "恩納村恩納123"
+        },
+        "telephone": "+81-098-123-4567",
+        "openingHours": "Mo-Su 08:00-18:00"
+      }
+    </script>
+    <!-- カレンダー用CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>沖縄ブルーオーシャン</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#activities">アクティビティ</a></li>
+            <li><a href="#price">料金</a></li>
+            <li><a href="#reservation">予約する</a></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <h2>沖縄の美しい海で<br />特別な思い出を</h2>
+          <p>
+            透明度抜群の青い海で感動体験を。<br />パラセーリング、シュノーケリング、ジェットスキーなど<br />多彩なマリンアクティビティをご用意
+          </p>
+          <a href="#reservation" class="btn">今すぐ予約する</a>
+        </div>
+      </section>
+
+      <section id="activities" class="activities">
+        <div class="container">
+          <h2>アクティビティ</h2>
+          <div class="activity-items">
+            <div class="activity-item">
+              <img
+                src="images/parasailing.jpg"
+                alt="パラセーリングの様子"
+                width="350"
+                height="250"
+              />
+              <h3>パラセーリング</h3>
+              <p>
+                大空から沖縄の絶景を一望！波の色が美しいグラデーションで広がる光景は、言葉では表現できない感動があります。
+              </p>
+              <ul class="activity-info">
+                <li>所要時間: 約30分</li>
+                <li>対象年齢: 10歳以上</li>
+                <li>体験場所: 青の浜ビーチ</li>
+              </ul>
+              <a href="#reservation" class="btn">予約する</a>
+            </div>
+            <div class="activity-item">
+              <img
+                src="images/snorkeling.jpg"
+                alt="シュノーケリングの様子"
+                width="350"
+                height="250"
+              />
+              <h3>シュノーケリング</h3>
+              <p>
+                カラフルな熱帯魚や美しいサンゴ礁を間近で観察できます。初心者でも安心の丁寧なガイド付きで、沖縄の海の魅力を存分に体験。
+              </p>
+              <ul class="activity-info">
+                <li>所要時間: 約2時間</li>
+                <li>対象年齢: 6歳以上</li>
+                <li>体験場所: コーラルビーチ</li>
+              </ul>
+              <a href="#reservation" class="btn">予約する</a>
+            </div>
+            <div class="activity-item">
+              <img
+                src="images/jetski.jpg"
+                alt="ジェットスキーの様子"
+                width="350"
+                height="250"
+              />
+              <h3>ジェットスキー</h3>
+              <p>
+                沖縄の海を爽快に駆け抜けるジェットスキー体験！初めての方でもインストラクターが丁寧に指導するので安心です。
+              </p>
+              <ul class="activity-info">
+                <li>所要時間: 約45分</li>
+                <li>対象年齢: 16歳以上</li>
+                <li>体験場所: マリンベイ</li>
+              </ul>
+              <a href="#reservation" class="btn">予約する</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="price" class="price">
+        <div class="container">
+          <h2>料金プラン</h2>
+          <div class="price-items">
+            <div class="price-item">
+              <h3>パラセーリング</h3>
+              <p class="price-tag">¥6,500/人</p>
+              <ul>
+                <li>約30分の体験</li>
+                <li>安全装備付き</li>
+                <li>写真データプレゼント</li>
+                <li>送迎なし</li>
+              </ul>
+              <a href="#reservation" class="btn" data-activity="parasailing"
+                >予約する</a
+              >
+            </div>
+            <div class="price-item recommended">
+              <h3>シュノーケリング</h3>
+              <p class="price-tag">¥4,000/人</p>
+              <ul>
+                <li>約2時間のツアー</li>
+                <li>器材レンタル込み</li>
+                <li>ガイド付き</li>
+                <li>ビーチでの写真撮影</li>
+              </ul>
+              <a href="#reservation" class="btn" data-activity="snorkeling"
+                >予約する</a
+              >
+            </div>
+            <div class="price-item">
+              <h3>ジェットスキー</h3>
+              <p class="price-tag">¥8,000/人</p>
+              <ul>
+                <li>約45分の体験</li>
+                <li>安全講習付き</li>
+                <li>最大2名乗車可能</li>
+                <li>保険料込み</li>
+              </ul>
+              <a href="#reservation" class="btn" data-activity="jetski"
+                >予約する</a
+              >
+            </div>
+          </div>
+          <div class="price-notes">
+            <h4>ご注意事項</h4>
+            <ul>
+              <li>表示価格は全て税込です。</li>
+              <li>天候により催行中止となる場合があります。</li>
+              <li>体調不良、飲酒後のご参加はお断りいたします。</li>
+              <li>
+                妊娠中の方や特定の疾患をお持ちの方はご参加いただけない場合があります。
+              </li>
+              <li>
+                各アクティビティに年齢・身長・体重制限があります。詳細はお問い合わせください。
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="reservation" class="reservation">
+        <div class="container">
+          <h2>ご予約</h2>
+          <form id="reservation-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="activity-select">アクティビティ</label>
+                <select id="activity-select" name="activity" required>
+                  <option value="">選択してください</option>
+                  <option value="parasailing">パラセーリング</option>
+                  <option value="snorkeling">シュノーケリング</option>
+                  <option value="jetski">ジェットスキー</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="reservation-date">ご希望日</label>
+                <input
+                  type="text"
+                  id="reservation-date"
+                  name="date"
+                  placeholder="日付を選択"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="reservation-time">時間帯</label>
+                <select id="reservation-time" name="time" required>
+                  <option value="">選択してください</option>
+                  <option value="09:00">09:00</option>
+                  <option value="11:00">11:00</option>
+                  <option value="13:00">13:00</option>
+                  <option value="15:00">15:00</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="people">人数</label>
+                <select id="people" name="people" required>
+                  <option value="">選択してください</option>
+                  <option value="1">1名</option>
+                  <option value="2">2名</option>
+                  <option value="3">3名</option>
+                  <option value="4">4名</option>
+                  <option value="5">5名</option>
+                  <option value="6">6名以上（要問合せ）</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">電話番号</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="form-group">
+                <label for="hotel">宿泊ホテル（任意）</label>
+                <input type="text" id="hotel" name="hotel" />
+              </div>
+            </div>
+            <div class="form-group full-width">
+              <label for="message">特記事項（アレルギー・持病など）</label>
+              <textarea id="message" name="message" rows="3"></textarea>
+            </div>
+            <div class="form-policy">
+              <input
+                type="checkbox"
+                id="agree-policy"
+                name="agree-policy"
+                required
+              />
+              <label for="agree-policy"
+                ><a href="terms.html" target="_blank">利用規約</a>と<a
+                  href="privacy.html"
+                  target="_blank"
+                  >プライバシーポリシー</a
+                >に同意します</label
+              >
+            </div>
+
+            <!-- 予約状況表示 -->
+            <div id="availability-info" class="availability-info info">
+              予約情報を選択してください。
+            </div>
+
+            <button type="submit" class="btn btn-large">予約を確定する</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="access" class="access">
+        <div class="container">
+          <h2>アクセス</h2>
+          <div class="access-content">
+            <div class="access-map">
+              <!-- ここに地図を埋め込みます -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112955.39256947112!2d127.72874491980068!3d26.508323761160946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e5119d6f541695%3A0x2cc3876e4daa858d!2z5oSb57qq5p2x!5e0!3m2!1sja!2sjp!4v1648368824563!5m2!1sja!2sjp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="access-info">
+              <h3>沖縄ブルーオーシャン</h3>
+              <p>〒904-0411<br />沖縄県恩納村恩納123</p>
+              <p>TEL: 098-123-4567</p>
+              <p>営業時間: 8:00〜18:00（年中無休）</p>
+              <h4>アクセス方法</h4>
+              <ul>
+                <li>那覇空港から車で約60分</li>
+                <li>恩納村役場から車で約10分</li>
+                <li>那覇バスターミナルから高速バス「やんばる号」で約80分</li>
+              </ul>
+              <p class="access-cta">
+                送迎サービスも実施中（要予約・追加料金）<br />詳しくはお問い合わせください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <h2>よくある質問</h2>
+          <div class="faq-items">
+            <div class="faq-item">
+              <h3>泳げなくても参加できますか？</h3>
+              <p>
+                はい、シュノーケリングはライフジャケットを着用いただきますので、泳げない方でも安心して参加いただけます。パラセーリングやジェットスキーも泳げない方でも問題ありません。ただし、全てのアクティビティで水に対する恐怖心が極端に強い方はご相談ください。
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>キャンセル料はいつから発生しますか？</h3>
+              <p>
+                3日前から30%、前日50%、当日100%のキャンセル料が発生します。ただし、悪天候による中止の場合はキャンセル料は発生しません。
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>子供は参加できますか？</h3>
+              <p>
+                アクティビティによって年齢制限が異なります。シュノーケリングは6歳以上、パラセーリングは10歳以上、ジェットスキーは16歳以上となっています。ただし、保護者同伴が条件となります。
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>雨天の場合はどうなりますか？</h3>
+              <p>
+                小雨程度であれば実施する場合もありますが、基本的に悪天候（強風・大雨・波が高い場合など）は安全のため中止とさせていただきます。中止の場合は当日の朝にご連絡いたします。
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>持ち物は何が必要ですか？</h3>
+              <p>
+                水着、タオル、日焼け止め、着替えをご持参ください。その他の装備品（ライフジャケット、シュノーケル用具など）は全て当店でご用意しております。
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>コンタクトレンズを着けたままでも大丈夫ですか？</h3>
+              <p>
+                シュノーケリングの場合、ソフトコンタクトであれば可能ですが、紛失の可能性もありますので、できればメガネ対応のマスクをご利用いただくことをお勧めします（無料貸出あり）。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="instagram" class="instagram">
+        <div class="container">
+          <h2>インスタグラム</h2>
+          <p class="instagram-lead">
+            実際のアクティビティの様子をご覧ください！<br />ハッシュタグ
+            <a
+              href="https://www.instagram.com/explore/tags/沖縄ブルーオーシャン/"
+              target="_blank"
+              >#沖縄ブルーオーシャン</a
+            >
+            で投稿をシェアしよう！
+          </p>
+          <div class="instagram-feed">
+            <div class="instagram-item">
+              <img
+                src="images/insta1.jpg"
+                alt="インスタグラム投稿1"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/insta2.jpg"
+                alt="インスタグラム投稿2"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/insta3.jpg"
+                alt="インスタグラム投稿3"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/insta4.jpg"
+                alt="インスタグラム投稿4"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/insta5.jpg"
+                alt="インスタグラム投稿5"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/insta6.jpg"
+                alt="インスタグラム投稿6"
+                width="200"
+                height="200"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>沖縄ブルーオーシャン</h3>
+            <p>〒904-0411<br />沖縄県恩納村恩納123</p>
+            <p>TEL: 098-123-4567</p>
+            <p>営業時間: 8:00〜18:00（年中無休）</p>
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="social-link"
+                >Instagram</a
+              >
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="social-link"
+                >Facebook</a
+              >
+              <a href="https://line.me/" target="_blank" class="social-link"
+                >LINE</a
+              >
+            </div>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#activities">アクティビティ</a></li>
+              <li><a href="#price">料金</a></li>
+              <li><a href="#reservation">予約する</a></li>
+              <li><a href="#access">アクセス</a></li>
+              <li><a href="#faq">よくある質問</a></li>
+              <li><a href="privacy.html">プライバシーポリシー</a></li>
+              <li><a href="terms.html">利用規約</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">
+          &copy; 2023 沖縄ブルーオーシャン All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
