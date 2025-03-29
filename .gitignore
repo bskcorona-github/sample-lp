@@ -39,4 +39,4 @@ yarn-error.log*
 # バックアップファイル
 *.bak
 *.swp
-*~ 
+*~ server/.env
